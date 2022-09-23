@@ -21,13 +21,11 @@ function receberDados() {
         const criaLinha = document.createElement("tr");
 
         criaLinha.innerHTML = `
-      <tr>
         <th scope="row">${dados[num].id}</th>
         <td>${dados[num].nome}</td>
         <td>${dados[num].telefone}</td>
         <td>${dados[num].email}</td>
         <td>${dados[num].turma}</td>
-      </tr>
       `;
         corpoTabela.appendChild(criaLinha);
 
