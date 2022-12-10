@@ -1,3 +1,6 @@
+//https://sebhastian.com/javascript-require-is-not-defined/#:~:text=This%20usually%20happens%20because%20your,Using%20require()%20in%20Node.
+
+
 const corpoTabela = document.getElementById("corpo-tabela");
 
 function receberDados() {
